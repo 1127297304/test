@@ -1,0 +1,1421 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,p,dl,dd,dt{margin:0;padding:0;}
+ul,li{list-style:none}
+a{text-decoration:none ;}
+/*表头部分*/
+#wrap1{
+	width:100%;
+	background-color:#f2f2f2;
+}
+#header{height:30px;
+		width:1170px;
+		background-color:#f2f2f2;
+		padding-left:112px;
+		padding-right:101px;
+		margin:0 auto;
+		border-bottom:1px solid #dadada ;
+		}
+#header #p1{height:30px;
+		width:72px;
+		text-align:center;
+		line-height:30px;
+		float:left;
+		}
+#header #p1 a{font-size:12px;
+			color:#666666;
+			}
+#header #ulH{height:30px;
+			float:right;
+			width:292px}
+#header #ulH li{font-size:12px;
+				float:left;
+				padding-left:11px;
+				padding-right:11px;
+				border-right:solid 1px #666666;
+				margin-top:9px;
+				}
+#header #ulH li a{
+				color:#666666;
+				}
+/*鼠标移入时,超链接被激活*/
+#header #ulH li a:hover{
+	color:red;
+	text-decoration:underline ;
+}
+								
+#header #ulH li p{background:url(img/dh1.jpg) no-repeat ;
+				text-indent:15px ;}
+#header #ulH .class1{border-right:none;}
+#header #ulH .class1 h6{
+	height:130px;
+	width:130px;
+	position:absolute;
+	left:1270px;
+	top:50px;
+	display:none ;
+	background-color: #f2f2f2;
+	z-index:1000 ;
+	text-align:center ;
+	line-height:110px ;
+}
+#header #ulH .class1 h6 img{
+	height:90px;
+	width:90px;
+	margin-top:20px ;
+}
+
+/*鼠标移入时,弹出二维码*/
+#header #ulH .class1:hover h6{
+	display:block ;
+}
+
+/*LOGO部分*/
+#wrap2{
+	width:100%;
+	background-color: #ffffff;
+}
+
+#logo{
+	height:117px;
+	width:1160px;
+	background-color: #ffffff;
+	margin:0 auto;
+	padding-left:112px;
+	padding-right:111px;
+	}
+#logo h1{
+		height:38px;
+		width:282px;
+		float:left;
+		margin-top:31px;
+       }
+#logo #lso{
+		margin-left:244px;
+		margin-right:70px;
+		height:66px;
+		width:394px;
+		margin-top:30px;
+		float:left;
+		}
+#logo #lso form{
+				width:394px;
+				height:40px;		
+				}	
+#logo #lso #lput{
+				width:310px;
+				height:36px;
+				border:1px solid #6b4185;
+				float:left;			
+				}
+#logo #lso #lbut{
+				width:82px;
+				height:40px;
+				background-color:#6b4185 ;
+				border:none;
+				float:left;
+				font-size:16px;
+				color:#ffffff;
+				}
+#logo #lso #llist{
+				width:394px;
+				height:18px;	
+				margin-top:8px;
+				}					
+#logo #lso #llist li{
+					float:left;
+					padding-right:8px;
+					}
+#logo #lso #llist li a{
+						font-size:12px ;
+						color:#666666;	
+					}			
+		  
+#logo #lp{
+		float:left;
+		width:168px;
+		height:38px ;
+		position:relative;
+		margin-top:30px;
+		border:1px solid #dadada;
+		
+		background-color:#f2f2f2 ;
+		}
+#logo #lp img{
+			height:26px ;
+			width:30px;
+			left:16px;
+			top:7px;
+			position:relative;
+			}		 
+#logo #lp span{
+			height:38px ;
+			width:98px;
+			font-size:12px ;
+			color:#9b9b9b;
+			line-height:38px ;
+			position:relative;
+			left:30px;
+			
+			
+			}
+#logo #lp em{
+			height:20px;
+			width:20px;
+			border-radius:50% ;
+			background-color:#e34755;
+			display:block ;
+			font-style: normal;
+			position:relative;
+			left:128px;
+			top:-50px;
+			text-align:center;
+			color:#ffffff;
+			}
+			/*小导航样式部分*/
+#wrap3{
+	width:100%;
+	background-color: #333333;
+}
+
+#smdh{
+	height: 30px;
+	width:1271px;
+	background-color: #333333;
+	margin:0 auto;
+	padding-left:112px ;
+}
+#smdh #smul {
+	height:30px;
+	width: 1271px;	
+}
+#smdh #smul li{
+	height: 30px;
+	float:left;
+	margin:0 30px;
+	text-align:center ;
+	line-height:35px ;
+}
+#smdh #smul .sm1{
+	height:30px;
+	width:220px;
+	margin:0 ;
+	background-color:#654579;
+}
+#smdh #smul .sm2{
+	margin-left:35px ;
+}
+#smdh #smul li a{
+	font-size: 15px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+#smdh #smul li a:hover{
+	color: #f2f2f2;
+}
+#smdh #smul .sm1 a:hover{
+	color: #ffffff;
+}
+/*轮播和移动菜单部分样式*/
+#wrap4{
+	width:100%;
+	background-color: #00090A;
+}
+#LBCD{
+	height:480px;
+	width:1271px;
+	margin:0 auto;
+	padding-left:112px;
+	/*overflow:hidden ;*/
+	position: relative;
+}
+#CD{
+	height:480px;
+	width:220px;
+	background-color:#e8e3eb;
+	z-index:1000;
+	position:absolute;
+}
+/*第一个菜单的布局样式*/
+#CD #CD1{
+	height:94px;
+	width:200px;
+	padding-left:20px;
+	padding-top:25px ;
+}
+#CD #CD1 #CD1dl{
+	height:94px;
+	width:180px;
+	border-bottom:1px dotted #d9d9d9 ;
+	
+}
+
+#CD #CD1 #CD1dl dt{
+	height:30px ;
+	line-height:30px ;
+	width: 180px;
+	margin-bottom: 11px;
+}
+#CD #CD1 #CD1dl dt a{
+	font-size: 14px;
+	width: 90px;
+	height: 30px;
+	display: block;
+}
+#CD #CD1 #CD1dl dt img{
+	width: 18px;
+	height: 22px;
+	margin-right: 16px;
+	float: left;
+	margin-top:4px ;
+}
+#CD #CD1 #CD1dl dt p{
+	float: left;
+	height: 22px;
+	margin-top:0px ;
+	color:#666666;
+}
+
+#CD #CD1 #CD1dl dd{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-right:10px ;
+	height:26px ;	
+	line-height: 26px;
+}
+#CD #CD1 #CD1dl dd a{
+	color:#666666;
+}
+/*第一个菜单鼠标移入的选项卡布局样式*/
+#CD #CD1_1{
+	height:480px;
+	width:605px;
+	padding-left: 35px;
+	position:relative;
+	left:200px;
+	top:-120px;
+	padding-right: 35px;
+	overflow: hidden;
+	display:none ;
+	background-color: #f9f9f9
+}
+#CD #CD1_1 h3{
+	height:60px ;
+	line-height:60px ;
+	font-size: 16px;
+	color:#666666;
+}
+#CD #CD1_1 #CD1_1IMG{
+	height:70px ;
+}
+#CD #CD1_1 #CD1_1IMG a{
+	height:70px ;
+	width: 140px;	
+}
+#CD #CD1_1 #CD1_1mx{
+	width: 320px;
+	height:300px ;
+	margin-top: 40px;
+	float: left;
+}
+#CD #CD1_1 #CD1_1mx h5{
+	height:20px ;
+	width: 60px;
+	font-size:14px ;
+	margin-right:30px ;
+	float:left ;
+}
+#CD #CD1_1 #CD1_1mx h5 a{
+	color:#666666;
+}
+#CD #CD1_1 #CD1_1mx ul{
+	width:220px ;
+	float:left ;
+	margin-bottom:20px;
+}
+#CD #CD1_1 #CD1_1mx ul li{
+	float:left ;
+	margin-right:20px ;
+	height:25px ;
+}
+#CD #CD1_1 #CD1_1mx ul li a{
+	font-size:14px ;
+	color:#666666;
+}
+#CD #CD1_1 #CD1_1tp{
+	float: left;
+	height:100px ;
+	width: 100px;
+	margin-top: 40px;
+	};
+#CD #CD1_1 #CD1_1tp img{
+	height:100px ;
+	width: 100px;
+}
+/*第二个菜单的布局样式*/
+#CD #CD2{
+	height:94px;
+	width:200px;
+	padding-left:20px;
+	padding-top:25px ;
+}
+#CD #CD2 #CD2dl{
+	height:94px;
+	width:180px;
+	border-bottom:1px dotted #d9d9d9 ;
+	
+}
+
+#CD #CD2 #CD2dl dt{
+	height:30px ;
+	line-height:30px ;
+	width: 180px;
+	margin-bottom: 11px;
+}
+#CD #CD2 #CD2dl dt a{
+	font-size: 14px;
+	width: 90px;
+	height: 30px;
+	display: block;
+}
+#CD #CD2 #CD2dl dt img{
+	width: 18px;
+	height: 22px;
+	margin-right: 16px;
+	float: left;
+	margin-top:4px ;
+}
+#CD #CD2 #CD2dl dt p{
+	float: left;
+	height: 22px;
+	margin-top:0px ;
+	color:#666666;
+}
+#CD #CD2 #CD2dl dd{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-right:10px ;
+	height:26px ;	
+	line-height: 26px;
+}
+
+#CD #CD2 #CD2dl dd a{
+	color:#666666;
+}
+/*第二个菜单鼠标移入的选项卡布局样式*/
+#CD #CD2_1{
+	height:530px;
+	width:605px;
+	padding-left: 35px;
+	position:relative;
+	left:200px;
+	top:-239px;/*定位有变化*/
+	padding-right: 35px;
+	overflow: hidden;
+	display:none ;
+	background-color: #f9f9f9
+}
+#CD #CD2_1 h3{
+	height:60px ;
+	line-height:60px ;
+	font-size: 16px;
+	color:#666666;
+}
+#CD #CD2_1 #CD2_1IMG{
+	height:70px ;
+}
+#CD #CD2_1 #CD2_1IMG a{
+	height:70px ;
+	width: 140px;	
+}
+#CD #CD2_1 #CD2_1mx{
+	width: 320px;
+	height:360px ;
+	margin-top: 40px;
+	float: left;
+}
+#CD #CD2_1 #CD2_1mx h5{
+	height:20px ;
+	width: 80px;
+	font-size:14px ;
+	margin-right:30px ;
+	float:left ;
+}
+#CD #CD2_1 #CD2_1mx h5 a{
+	color:#666666;
+}
+#CD #CD2_1 #CD2_1mx ul{
+	width:210px ;
+	float:left ;
+	margin-bottom:20px;
+}
+#CD #CD2_1 #CD2_1mx ul li{
+	float:left ;
+	margin-right:20px ;
+	height:25px ;
+}
+#CD #CD2_1 #CD2_1mx ul li a{
+	font-size:14px ;
+	color:#666666;
+}
+#CD #CD2_1 #CD2_1tp{
+	float: left;
+	height:100px ;
+	width: 100px;
+	margin-top: 40px;
+	};
+#CD #CD2_1 #CD2_1tp img{
+	height:100px ;
+	width: 100px;
+}
+/*第三个菜单的布局样式*/
+#CD #CD3{
+	height:94px;
+	width:200px;
+	padding-left:20px;
+	padding-top:25px ;
+}
+#CD #CD3 #CD3dl{
+	height:94px;
+	width:180px;
+	border-bottom:1px dotted #d9d9d9 ;
+	
+}
+
+#CD #CD3 #CD3dl dt{
+	height:30px ;
+	line-height:30px ;
+	width: 180px;
+	margin-bottom: 11px;
+}
+#CD #CD3 #CD3dl dt a{
+	font-size: 14px;
+	width: 90px;
+	height: 30px;
+	display: block;
+}
+#CD #CD3 #CD3dl dt img{
+	width: 18px;
+	height: 22px;
+	margin-right: 16px;
+	float: left;
+	margin-top:4px ;
+}
+#CD #CD3 #CD3dl dt p{
+	float: left;
+	height: 22px;
+	margin-top:0px ;
+	color:#666666;
+}
+#CD #CD3 #CD3dl dd{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-right:10px ;
+	height:26px ;	
+	line-height: 26px;
+}
+
+#CD #CD3 #CD3dl dd a{
+	color:#666666;
+}
+/*第三个菜单鼠标移入的选项卡布局样式*/
+#CD #CD3_1{
+	height:835px;
+	width:605px;
+	padding-left: 35px;
+	position:relative;
+	left:200px;
+	top:-358px;/*定位有变化*/
+	padding-right: 35px;
+	overflow: hidden;
+	display:none ;
+	background-color: #f9f9f9
+}
+#CD #CD3_1 h3{
+	height:60px ;
+	line-height:60px ;
+	font-size: 16px;
+	color:#666666;
+}
+#CD #CD3_1 #CD3_1IMG{
+	height:70px ;
+}
+#CD #CD3_1 #CD3_1IMG a{
+	height:70px ;
+	width: 140px;	
+}
+#CD #CD3_1 #CD3_1mx{
+	width: 320px;
+	height:660px ;
+	margin-top: 40px;
+	float: left;
+}
+#CD #CD3_1 #CD3_1mx h5{
+	height:20px ;
+	width: 80px;
+	font-size:14px ;
+	margin-right:30px ;
+	float:left ;
+}
+#CD #CD3_1 #CD3_1mx h5 a{
+	color:#666666;
+}
+#CD #CD3_1 #CD3_1mx ul{
+	width:210px ;
+	float:left ;
+	margin-bottom:20px;
+}
+#CD #CD3_1 #CD3_1mx ul li{
+	float:left ;
+	margin-right:20px ;
+	height:25px ;
+}
+#CD #CD3_1 #CD3_1mx ul li a{
+	font-size:14px ;
+	color:#666666;
+}
+#CD #CD3_1 #CD3_1tp{
+	float: left;
+	height:100px ;
+	width: 100px;
+	margin-top: 40px;
+	};
+#CD #CD3_1 #CD3_1tp img{
+	height:100px ;
+	width: 100px;
+}
+/*第四个菜单的布局样式*/
+#CD #CD4{
+	height:94px;
+	width:200px;
+	padding-left:20px;
+	padding-top:25px ;
+}
+#CD #CD4 #CD4dl{
+	height:94px;
+	width:180px;
+	border-bottom:1px dotted #d9d9d9 ;
+	
+}
+
+#CD #CD4 #CD4dl dt{
+	height:30px ;
+	line-height:30px ;
+	width: 180px;
+	margin-bottom: 11px;
+}
+#CD #CD3 #CD3dl dt a{
+	font-size: 14px;
+	width: 90px;
+	height: 30px;
+	display: block;
+}
+#CD #CD4 #CD4dl dt img{
+	width: 18px;
+	height: 22px;
+	margin-right: 16px;
+	float: left;
+	margin-top:4px ;
+}
+#CD #CD4 #CD4dl dt p{
+	float: left;
+	height: 22px;
+	margin-top:0px ;
+	color:#666666;
+}
+#CD #CD4 #CD4dl dd{
+	float: left;
+	font-size: 12px;
+	margin-right:10px ;
+	height:26px ;	
+	line-height: 26px;
+}
+
+#CD #CD4 #CD4dl dd a{
+	color:#666666;
+}
+/*第四个菜单鼠标移入的选项卡布局样式*/
+#CD #CD4_1{
+	height:780px;
+	width:605px;
+	padding-left: 35px;
+	position:relative;
+	left:200px;
+	top:-477px;/*定位有变化*/
+	padding-right: 35px;
+	overflow: hidden;
+	display:none ;
+	background-color: #f9f9f9
+}
+#CD #CD4_1 h3{
+	height:60px ;
+	line-height:60px ;
+	font-size: 16px;
+	color:#666666;
+}
+#CD #CD4_1 #CD4_1IMG{
+	height:70px ;
+}
+#CD #CD4_1 #CD4_1IMG a{
+	height:70px ;
+	width: 140px;	
+}
+#CD #CD4_1 #CD4_1mx{
+	width: 320px;
+	height:620px ;
+	margin-top: 40px;
+	float: left;
+}
+#CD #CD4_1 #CD4_1mx h5{
+	height:20px ;
+	width: 80px;
+	font-size:14px ;
+	margin-right:30px ;
+	float:left ;
+}
+#CD #CD4_1 #CD4_1mx h5 a{
+	color:#666666;
+}
+#CD #CD4_1 #CD4_1mx ul{
+	width:210px ;
+	float:left ;
+	margin-bottom:20px;
+}
+#CD #CD4_1 #CD4_1mx ul li{
+	float:left ;
+	margin-right:20px ;
+	height:25px ;
+}
+#CD #CD4_1 #CD4_1mx ul li a{
+	font-size:14px ;
+	color:#666666;
+}
+#CD #CD4_1 #CD4_1tp{
+	float: left;
+	height:100px ;
+	width: 100px;
+	margin-top: 40px;
+	};
+#CD #CD4_1 #CD4_1tp img{
+	height:100px ;
+	width: 100px;
+}
+#LBCD #lubo{
+	height:480px;
+	width:1383px ;
+	margin:0 auto ;
+	position:absolute;
+	top:0 ;
+	left: 0;
+	background-color:yellow ;
+	overflow:hidden ;
+	z-index: 0;
+}
+#LBCD #lubo #ulimg{
+	width:5532px;
+	height:480px;
+	position:absolute;
+}
+#LBCD #lubo #ulimg li{
+	width:1383px;
+	height:480px;
+	position:relative;
+	float:left;		
+}
+#LBCD #lubo #ulimg li img{
+	width:1383px;
+	height:480px;
+}
+#LBCD #lubo #urdh{
+	height:20px;
+	width:90px;
+	position:absolute;
+	left:700px;
+	top:420px;	
+}
+#LBCD #lubo #urdh li{
+	height:20px;
+	width:20px;
+	background:#00090a;
+	float:left;
+	list-style-type: none;
+	margin-right:10px;
+	text-align:center;
+	line-height:20px;
+	border-radius:50% ;
+	color:white ;
+}
+#wrap5{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#spbt{
+	height:127px;
+	width:1383px;
+	background-color:#f9f9f9;
+	margin:0 auto ;
+	line-height: 142px;
+	text-align:center ;
+	padding-top:15px ;
+}
+#wrap6{
+	width:100%;
+	background-color:#f9f9f9 ;
+}
+#spfirst{
+	width:1271px ;
+	height:336px ;
+	background-color:#f9f9f9 ;
+	margin:0 auto ;
+	padding-left:112px ;
+	background-color:#f9f9f9;
+}
+#spfirst h3{
+	height: 32px;
+	background:url(img/picqh.png) no-repeat;
+	text-indent:40px;
+	line-height:32px ;
+	margin-bottom: 20PX;
+	font-size: 15px;
+	color: #666666;
+	font-weight: normal;
+}
+#spfirst a{
+	 margin-right: 18px;
+}
+
+#spfirst a img:hover{
+	box-shadow:0px 0px 2px 3px gainsboro;
+	}
+	
+	/*第二行商品信息样式*/
+#wrap7{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#pr2{
+	width:1271px ;
+	height: 438px;
+	background-color: #f9f9f9;
+	margin:0 auto ;
+	padding-left:112px ;
+	padding-top: 33px;
+}
+#pr2 h3{
+	height: 32px;
+	background:url(img/picqh.png) no-repeat 0 -39px  #f9f9f9;
+	text-indent:40px;
+	line-height:32px ;
+	font-size: 15px;
+	color: #666666;
+	font-weight: normal;
+	margin-bottom:20px ;
+}
+#pr2 dl{
+	height:380px ;
+	width:285px ;
+	float:left ;
+	margin-right: 20px;
+	margin-bottom:20px ;
+	border:1px solid #e5e5e5 ;
+	position:relative;
+}
+#pr2 dl:hover{
+	box-shadow:0px 0px 2px 3px gainsboro;
+	}
+
+#pr2 dl dt{
+	width:285px ;
+	height:268px ;
+}
+
+#pr2 dl dt p{
+	width:285px ;
+	height: 30px;
+	position:absolute ;
+	top:238px;
+	left:0;
+	background:#8c74b2 ;
+	font-size:12px ;
+	color:white ;
+	text-align: center;
+	line-height:30px ;
+	display: none;
+}
+#pr2 dl dt:hover p{
+	display: block;
+}
+#pr2 dl dt p img{
+	height:16px ;
+	width:19px ;
+	margin-left:10px ;
+}
+
+#pr2 dl dt img{
+	width:285px ;
+	height:268px ;
+}
+
+#pr2 dl dd{
+	width:258px ;
+	height:112px ;
+	padding-left:27px ;
+	background-color:#ffffff;
+}
+#pr2 dl dd  #pic1-1{
+	width:258px ;
+	height:48px ;
+	line-height:48px ;
+}
+#pr2 dl dd  #pic1-1 b{
+	font-size: 16px;
+	color: red;
+}
+#pr2 dl dd  #pic1-1 del{
+	font-size: 12px;
+	color: #9B9B9B;
+}
+#pr2 dl dd  #pic1-1 em{
+	font-size: 12px;
+	color: #9B9B9B;
+	margin-left:60px ;
+	font-style:normal ;
+}
+#pr2 dl dd  #pic1-2 span{
+	font-size: 12px;
+	color: red;
+}
+#pr2 dl dd  #pic1-2 a{
+	font-size: 12px;
+	color: #9B9B9B;
+}
+/*<!--第八个外套  第三行商品-->*/
+#wrap8{
+	width:100%;
+	background-color:#f9f9f9 ;
+}
+#prd3{
+	width:1271px ;
+	height:240px;
+	background-color:#f9f9f9 ;
+	margin:0 auto ;
+	padding-left:112px ;
+	padding-top: 20px;
+	position:relative ;
+}
+#prd3 dl{
+	width:589px ;
+	height:238px;
+	border:1px solid #e5e5e5 ;
+	float:left ;
+	margin-right:30px ;
+}
+#prd3 dl dt{
+	width:283px ;
+	height:238px ;
+	float:left ;
+	position:absolute ;
+}
+#prd3 dl dt p{
+	width:283px ;
+	height: 30px;
+	position:absolute ;
+	top:208px;
+	left:0;
+	background:#8c74b2 ;
+	font-size:12px ;
+	color:white ;
+	text-align: center;
+	line-height:30px ;
+	display: none;
+}
+#prd3 dl dt:hover p{
+	display: block;
+}
+#prd3 dl dt p img{
+	height:16px ;
+	width:19px ;
+	margin-left:10px ;
+}
+#prd3 dl dt img{
+	width:283px ;
+	height:238px ;
+}
+
+#prd3 dl dd {
+	width:256px ;
+	height:238px ;
+	display: inline-block;
+	background-color:#ffffff ;
+	float:right ;
+	padding-left: 50px;
+
+}
+#prd3 dl:hover{
+	box-shadow:0px 0px 1px 2px gainsboro;
+	}
+
+#prd3 dl dd #pic3-1{
+	height:17px ;
+	width: 254px;
+	margin-top: 85px;
+	line-height:17px ;
+	
+}
+
+#prd3 dl dd #pic3-1 b{
+	font-size: 16px;
+	color: red;
+}
+#prd3 dl dd #pic3-1 del{
+	font-size: 12px;
+	color: #9B9B9B;
+}
+#prd3 dl dd #pic3-1 em{
+	font-size: 12px;
+	color: #9B9B9B;
+	margin-left:60px ;
+	font-style: normal;
+}
+#prd3 dl dd #pic3-2{
+	margin-top:20px ;
+}
+#prd3 dl dd #pic3-2 span{
+	font-size: 12px;
+	color: red;
+}
+#prd3 dl dd #pic3-2 a{
+	font-size: 12px;
+	color: #9B9B9B;
+}
+
+/*<!--第九个外套  第四行商品的导航说明-->*/
+#wrap9{
+	width:100%;
+	background-color:#f9f9f9 ;
+}
+#prdsm{
+	height:88px ;
+	width:1271px ;
+	background-color:#f9f9f9 ;
+	margin:0 auto ;
+	clear:both ;
+	padding-left:112px ;
+	padding-top:54px ;
+}
+#prdsm #prdsm_1{
+	height: 33px;
+	color: #666666;
+	background:url(img/picqh.png) no-repeat 0 -78px;
+	text-indent:45px ;
+	line-height: 33px;
+	margin-left:10px ;
+}
+#prdsm #prdsm_2{
+	height: 16px;
+	color: #666666;
+	font-size: 16px;
+	background:url(img/bgfk.png) no-repeat;
+	text-indent:15px ;
+	line-height: 16px;
+	margin-top: 30px;
+	margin-left:25px ;
+}
+#prdsm #prdsm_1 em{
+	font-size: 16px;
+	font-style: normal;
+}
+#prdsm #prdsm_1 span{
+	font-size: 12px;
+	font-style: normal;
+	margin-left:30px ;
+}
+/*<!--第10个外套  第四行商品-->*/
+#wrap10{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#prd4{
+	height:234px ;
+	width:1271px ;
+	background-color:#f9f9f9;
+	margin:0 auto ;
+	padding-left:112px ;
+}
+#prd4 #prd4_1{
+	height:140px ;
+	width:1155px ;
+	padding:42px 30px 52px 30px ;
+	background-color:#ffffff ;
+}
+#prd4 img{
+	border:none;
+	width:208px ;
+	height: 140px;
+	margin-right: 20px;
+	
+}
+#prd4 .prd4_4{
+	margin-right:0;
+}
+#prd4 img:hover{
+	box-shadow:0px 0px 1px 2px gainsboro;
+}
+/*<!--第11个外套  第五行商品-->*/
+#wrap11{
+	width:100%;
+background-color:f#9f9f9;
+}
+#prd5{
+	height:1067px ;
+	width:1271px ;
+	background-color:f#9f9f9;
+	margin:0 auto ;
+	padding-left:112px ;
+	padding-top:54px ;
+	
+}
+#prd5 #prdsm_5{
+	height: 16px;
+	background:url(img/bgfk.png) no-repeat #f9f9f9;
+	text-indent:15px ;
+	line-height: 16px;
+	margin-left:25px ;
+	margin-bottom:10px ;
+}
+#prd5 #prd5_1{
+	height:1043px ;
+	width: 1210px;
+	background-color:#ffffff ;
+	font-size: 16px;
+	
+}
+#prd5 #prd5_1 ul{
+	height: 30px;
+	width:1175px;
+	padding-top:42px ;
+	border-bottom:1px solid #e5e5e5 ;
+	padding-left:35px ;
+	background-color: #ffffff;
+}
+#prd5 #prd5_1 ul li{
+	float:left ;
+	margin-left:10px ;
+	padding:0 12px ;
+	height: 30px;
+	line-height:30px ;
+	border:1px solid #e5e5e5 ;
+	border-bottom:none ;
+}
+#prd5 #prd5_1 ul li a{ 
+	font-size: 16px;
+	color: #666666
+}
+#prd5 #prd5_1 dl{
+	height: 442px;
+	width:280px ;
+	float:left;
+	margin:35px 60px 30px 50px ;
+	background-color:#ffffff ;;
+}
+#prd5 #prd5_1 dl:hover{
+	box-shadow:0px 0px 1px 2px gainsboro;
+}
+#prd5 #prd5_1 .prd5Bjmg{
+	margin:0 60px 20px 50px ;
+}
+#prd5 #prd5_1 dl dt{
+	height:295px ;
+	width: 280px;
+}
+#prd5 #prd5_1 dl dt img{
+	height:295px ;
+	width: 280px;
+	
+}
+#prd5 #prd5_1 dd #prd5_1p1{
+	height:30px ;
+	padding-left:5px ;
+}
+#prd5 #prd5_1 dd #prd5_1p1 b{
+	font-size:16px ;
+	color: red;
+	
+}
+#prd5 #prd5_1 dd #prd5_1p1 del{
+	font-size: 10px;
+	color: #666666;
+}
+#prd5 #prd5_1p2 a{
+	font-size:10px ;
+	color: #666666;
+}
+#prd5 #prd5_1p3{
+	height:50px ;
+	width:265 ;	
+	border-radius:50px;
+	background-color: #fffde6;
+}
+#prd5_1 dl dd #dyh{
+	height:18px ;
+	line-height: 18px; 
+	width:280px;
+	color: #666666;
+	font-size:8px ;
+}
+ #prd5 #prd5_1 #tpqhz{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:yellow ;
+ 	overflow:hidden ;
+ }
+ 
+#prd5 #prd5_1 #tpqhz #tpqhz1{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:red;
+ }
+ #prd5 #prd5_1 #tpqhz #tpqhz2{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:yellow;
+ 	display:none ;
+ }
+ #prd5 #prd5_1 #tpqhz #tpqhz3{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:blue;
+ 	display:none ;
+ }
+ #prd5 #prd5_1 #tpqhz #tpqhz4{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:greenyellow;
+ 	display:none ;
+ }
+ #prd5 #prd5_1 #tpqhz #tpqhz5{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:darkmagenta;
+ 	display:none ;
+ }
+ #prd5 #prd5_1 #tpqhz #tpqhz6{
+ 	width: 1210px;
+ 	height:970px ;
+ 	background-color:bisque;
+ 	display:none ;
+ }
+ /*此处是手风琴的表头效果*/
+#wrap12{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#sfqdh{
+	height:28px ;
+	width:1271px ;
+	background-color:#f9f9f9;
+	margin:0 auto ;
+	padding-left:112px ;
+	padding-top:50px ;	
+}
+#sfqdh p{
+	height: 16px;
+	background:url(img/bgfk.png) no-repeat  0 3px #f9f9f9 ;
+	text-indent:15px ;
+	line-height: 16px;
+	margin-left:25px ;
+	margin-bottom:10px ;
+}
+ /*此处是手风琴效果*/
+#wrap13{
+	width:100%;
+	background-color:red;
+}
+#sfq{
+	height:470px ;
+	width:1271px ;
+	background-color:yellow;
+	margin:0 auto ;
+	padding-left:112px ;
+}
+#sfq #sfq_1{
+	width:394px ;
+	height:470px ;
+	background-color: orange;
+	position:relative ;
+	float:left ;
+}
+#sfq #sfq_1 #sfq_1t{
+	height:46px;
+	width:394px;
+	background-color: #ffffff;
+	line-height:46px ;
+	text-align: center;
+	font-size:16px ;
+	color:red ;
+	border-bottom:1px solid #eeeeee ;
+}
+#sfq #sfq_1 dl{
+	height:214px ;
+	width:395px ;
+	position: relative;
+	overflow:hidden ;
+}
+#sfq #sfq_1 #sfqtop{
+	height:20px;
+	width:70px ;
+	position:absolute ;
+	background-color:#e14958 ;
+	line-height:20px ;
+	text-align: center;
+	color: #ffffff;
+}
+#sfq #sfq_1 dl dt{
+	height:214px ;
+	width:196px ;
+	float:left ;
+}
+#sfq #sfq_1 dl dt img{
+	height:214px ;
+	width:196px ;
+}
+#sfq #sfq_1 dl dd{
+	height:194px ;
+	width:189px ;
+	float:right ;
+	background-color:#ffffff;
+	padding-right:10px ;
+	padding-top: 20px;
+}
+#sfq #sfq_1 dl dd a{
+	padding-top: 40px;
+	font-size: 12px;
+	color:#666666 ;
+	
+}
+#sfq #sfq_1 dl dd #sfq_1p{
+	margin-top:16px ;
+	margin-bottom: 16px;
+}
+#sfq_1p b{
+	font-size:16px ;
+	color:red ;
+}
+#sfq_1p del{
+	font-size:10px ;
+	color:#666666;
+	
+}
+#sfq #sfq_1 dl dd .classp{
+	color: #999999;
+	font-size:12px ;
+}
+#sfq #sfq_1 .sfq_1dl{
+	height:52px ;
+	width:395px ;
+	position: relative;
+	overflow:hidden ;
+}
+/*--第14个外套第七行商品表头-->*/
+#wrap14{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#prodbt{
+	height:28px ;
+	width:1271px ;
+	background-color:#f9f9f9;
+	margin:0 auto ;
+	padding-left:112px ;
+	padding-top:50px ;	
+}
+#prodbt p{
+	height: 16px;
+	background:url(img/bgfk.png) no-repeat  0 3px #f9f9f9 ;
+	text-indent:15px ;
+	line-height: 16px;
+	margin-left:25px ;
+	margin-bottom:10px ;
+}
+/*--第15个外套第七行商品-->*/
+#wrap15{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#prod7{
+ 	width: 1271px;
+ 	height:970px ;
+ 	background-color:#ffffff;
+ 	margin:0 auto ;
+ 	padding-left: 112px;
+ }
+ #prod7 dl{
+	height: 442px;
+	width:280px ;
+	float:left;
+	margin:35px 60px 30px 50px ;
+	background-color:#ffffff ;;
+}
+#prod7 dl:hover{
+	box-shadow:0px 0px 1px 2px gainsboro;
+}
+
+#prod7 .prd_7top{
+	margin:0 60px 20px 50px ;
+}
+#prod7 dl dt{
+	height:295px ;
+	width: 280px;
+}
+#prod7 dl dt img{
+	height:295px ;
+	width: 280px;
+	
+}
+#prod7 dd #prd7_1p1{
+	height:30px ;
+	padding-left:5px ;
+}
+#prod7 dd #prd7_1p1 b{
+	font-size:16px ;
+	color: red;
+	
+}
+#prod7 dd #pr7_1p1 del{
+	font-size: 10px;
+	color: #666666;
+}
+#prod7 #prd7_1p2 a{
+	font-size:10px ;
+	color: #666666;
+}
+#prod7 #prd7_1p3{
+	height:50px ;
+	width:265 ;	
+	border-radius:50px;
+	background-color: #fffde6;
+}
+#prd7_1 dl dd #dyh{
+	height:18px ;
+	line-height: 18px; 
+	width:280px;
+	color: #666666;
+	font-size:8px ;
+}
+	/*<!--第16个外套第八行商品表头-->	*/
+#wrap16{
+	width:100%;
+	background-color:#f9f9f9;
+}
+#sglogo{
+	width: 1383px;
+ 	height:105px ;
+ 	background-color:#f9f9f9;
+ 	margin:0 auto ;
+ 	text-align:center ;
+ 	line-height:105px ;
+}
+/*#sglogo img{
+	
+}*/
